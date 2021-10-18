@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("admin/Speridian123")
+        app = docker.build("admin/nra")
     }
 
     stage('Test image') {
